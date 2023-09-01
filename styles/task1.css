@@ -1,0 +1,31 @@
+article {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    width: 1100px;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    /* display: grid;
+    align-content: flex-start;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-rows: 1fr; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+div {
+    background-color: white;
+    width: 350px;
+    flex: auto auto auto;
+    height: fit-content;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+h3,
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
